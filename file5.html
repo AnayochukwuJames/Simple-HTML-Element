@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Welcome to javascript</h1>
+    <marquee behavior="" direction="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero obcaecati, hic
+        molestiae quidem consequatur <h1> accusantium doloremque </h1> temporibus voluptates img vel ut. ipsum dolor
+        sit,
+        amet
+        consectetur <strong style="color: red;">adipisicing elit. Voluptas </strong> neque, vel
+        nostrum unde, laborum accusamus, dolor voluptatem maxime dicta nihil ratione nulla harum laudantium distinctio
+        consequatur nobis et odit voluptatum!</marquee>
+    <button onclick="myFunction()">Submit</button>
+
+    <p id="Demo">Press the button and see the magic</p>
+    <button onclick="myNewFunction()">try this
+    </button>
+    <Script>
+        function myFunction() {
+            var text;
+            if (confirm("press a button!")) {
+                text = "You pressed ok!";
+            } else {
+                text = "You pressed cancel!";
+            }
+            document.getElementById("Demo").innerHTML = text;
+        }
+        function myNewFunction() {
+            alert("Another interesting apart of it self");
+        }       
+    </Script>
+</body>
+
+</html>
